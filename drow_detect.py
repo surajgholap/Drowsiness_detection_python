@@ -61,7 +61,7 @@ def DetectFace(image, faceCascade, eyeCascade):
 # Capture from webcam
 capture = cv.CaptureFromCAM(0)
 # Capture from any video file
-# capture = cv.CaptureFromFile("test.avi")
+# capture = cv.CaptureFromFile("video.avi")
 # To load Frontalface and eyes xml
 face_Cascade = cv.Load("/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml")
 eye_Cascade = cv.Load("/usr/share/opencv/haarcascades/haarcascade_eye.xml")
